@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Saba Shop",
+    "slug": "saba-shop",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/download.png",
+    "splash": {
+      "image": "./assets/download.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 5000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/download.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/download.png"
+    }
+  }
+}
